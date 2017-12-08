@@ -5,7 +5,7 @@
 #    initialize VPS on Ubuntu 16.04 through bash operations.
 apt update
 apt upgrade -y
-apt install gdb -y
+apt install gdb git -y
 username=username
 if [ -z "$username" ]; then
 	exit 0
