@@ -15,5 +15,5 @@ passwd ${username}
 echo -e "${username}\tALL=(ALL:ALL)\tALL">>/etc/sudoers
 echo -e "${username}\tALL=NOPASSWD:ALL">>/etc/sudoers
 cp -r .ssh /home/${username}
-chown -r ${username}:${username} /home/${username}/.ssh
+chown -R ${username}:${username} /home/${username}/.ssh
 #chown ${username}:${username} /home/${username}/.ssh/authorized_keys
