@@ -49,7 +49,8 @@ filetype on
 syntax on
 let g:solarized_termcolors=256
 colorscheme solarized
-let g:ycm_server_python_interpreter='/bin/python2'
+let g:ycm_server_python_interpreter='/usr/bin/python2'
+let g:ycm_python_binary_path = '/usr/bin/python3'
 "let g:ycm_global_ycm_extra_conf='/home/manjaro/.vim/.ycm_extra_conf.py'
 
 if has('win32')
